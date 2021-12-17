@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\AlexLorman\OneDrive - ThayerMahan Inc\Attachments\DC Metro Map Project\esp32-backpack\ESP Backpack\ESP backpack.sch</source>
+    <date>11/24/2021 00:03:49</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESP backpack.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="5VDC_IN1">
+      <value>282837-4</value>
+      <footprint>Custom Libraries:TE_282837-4</footprint>
+      <fields>
+        <field name="Comment">282837-4</field>
+        <field name="EU_RoHS_Compliance">Compliant with Exemptions</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="282837-4-282837-4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615951DC</tstamp>
+    </comp>
+    <comp ref="ExtPower1">
+      <value>0ohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615E12DE</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>VCNL4010-GS08</value>
+      <footprint>Custom Libraries:XDCR_VCNL4010-GS08</footprint>
+      <fields>
+        <field name="MANUFACTURER">VISHAY</field>
+        <field name="PARTREV">1.6</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="VCNL4010-GS08-VCNL4010-GS08" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6158E28C</tstamp>
+    </comp>
+    <comp ref="SDA1">
+      <value>0ohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615A76C5</tstamp>
+    </comp>
+    <comp ref="SCL1">
+      <value>0ohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615A7E74</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615AFDE4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B0C74</tstamp>
+    </comp>
+    <comp ref="SDA_EXT1">
+      <value>0ohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615BC292</tstamp>
+    </comp>
+    <comp ref="SCL_EXT1">
+      <value>0ohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615BC6A3</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615CC8AE</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615CE27E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615DE63B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615DE845</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615DEA14</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615DEBC6</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>HLE-120-02-F-DV-BE-K</value>
+      <footprint>Custom Libraries:SAMTEC_HLE-120-02-F-DV-BE-K</footprint>
+      <fields>
+        <field name="MANUFACTURER">SAMTEC</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="HLE-120-02-F-DV-BE-K-HLE-120-02-F-DV-BE-K" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6162485D</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>EEE0JA102P</value>
+      <footprint>Custom Libraries:CAP_EEE0JA102P</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6164FC5E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>EEE0JA102P</value>
+      <footprint>Custom Libraries:CAP_EEE0JA102P</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616537CF</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>EEE0JA102P</value>
+      <footprint>Custom Libraries:CAP_EEE0JA102P</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61653B5F</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>EEE0JA102P</value>
+      <footprint>Custom Libraries:CAP_EEE0JA102P</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61653F66</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>EEE0JA102P</value>
+      <footprint>Custom Libraries:CAP_EEE0JA102P</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6165439C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>EEE0JA102P</value>
+      <footprint>Custom Libraries:CAP_EEE0JA102P</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61654902</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>EEE0JA102P</value>
+      <footprint>Custom Libraries:CAP_EEE0JA102P</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61654D26</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>EEE0JA102P</value>
+      <footprint>Custom Libraries:CAP_EEE0JA102P</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616552FC</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>EEE0JA102P</value>
+      <footprint>Custom Libraries:CAP_EEE0JA102P</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616558E4</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>EEE0JA102P</value>
+      <footprint>Custom Libraries:CAP_EEE0JA102P</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61655E79</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>HLE-120-02-F-DV-BE-K</value>
+      <footprint>Custom Libraries:SAMTEC_HLE-120-02-F-DV-BE-K</footprint>
+      <fields>
+        <field name="MANUFACTURER">SAMTEC</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="HLE-120-02-F-DV-BE-K-HLE-120-02-F-DV-BE-K" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61621D28</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615DD2E5</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-DEVKITC-32D</value>
+      <footprint>Custom Libraries:MODULE_ESP32-DEVKITC-32D</footprint>
+      <fields>
+        <field name="MANUFACTURER">Espressif Systems</field>
+        <field name="PARTREV">4</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="ESP32-DEVKITC-32D-ESP32-DEVKITC-32D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61592B24</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>EEE0JA102P</value>
+      <footprint>Custom Libraries:CAP_EEE0JA102P</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619BF21F</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>EEE0JA102P</value>
+      <footprint>Custom Libraries:CAP_EEE0JA102P</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619BF83F</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>452403012014</value>
+      <footprint>452403012014</footprint>
+      <libsource lib="ESP-backpack-rescue" part="452403012014-452403012014" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616D4E57</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SK6812</value>
+      <footprint>LED_SK6812</footprint>
+      <fields>
+        <field name="MANUFACTURER">Shenzhen LED Color</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.7 mm</field>
+        <field name="PARTREV">03</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP-backpack-rescue" part="SK6812-SK6812" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616D71C8</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>452403012014</value>
+      <footprint>452403012014</footprint>
+      <libsource lib="ESP-backpack-rescue" part="452403012014-452403012014" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616D852D</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616EDE11</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61731112</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61737E57</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP-backpack-rescue" part="282837-4-282837-4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">282837-4-282837-4</field>
+        <field name="Footprint">TE_282837-4</field>
+        <field name="Comment">282837-4</field>
+        <field name="EU_RoHS_Compliance">Compliant with Exemptions</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP-backpack-rescue" part="452403012014-452403012014">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">452403012014-452403012014</field>
+        <field name="Footprint">452403012014</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP-backpack-rescue" part="EEE0JA102P-EEE0JA102P">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EEE0JA102P-EEE0JA102P</field>
+        <field name="Footprint">CAP_EEE0JA102P</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.2mm</field>
+        <field name="MANUFACTURER">Panasonic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP-backpack-rescue" part="ESP32-DEVKITC-32D-ESP32-DEVKITC-32D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-DEVKITC-32D-ESP32-DEVKITC-32D</field>
+        <field name="Footprint">MODULE_ESP32-DEVKITC-32D</field>
+        <field name="PARTREV">4</field>
+        <field name="MANUFACTURER">Espressif Systems</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="SENSOR_VP" type="input"/>
+        <pin num="4" name="SENSOR_VN" type="input"/>
+        <pin num="5" name="IO34" type="BiDi"/>
+        <pin num="6" name="IO35" type="BiDi"/>
+        <pin num="7" name="IO32" type="BiDi"/>
+        <pin num="8" name="IO33" type="BiDi"/>
+        <pin num="9" name="IO25" type="BiDi"/>
+        <pin num="10" name="IO26" type="BiDi"/>
+        <pin num="11" name="IO27" type="BiDi"/>
+        <pin num="12" name="IO14" type="BiDi"/>
+        <pin num="13" name="IO12" type="BiDi"/>
+        <pin num="14" name="GND1" type="power_in"/>
+        <pin num="15" name="IO13" type="BiDi"/>
+        <pin num="16" name="SD2" type="BiDi"/>
+        <pin num="17" name="SD3" type="BiDi"/>
+        <pin num="18" name="CMD" type="BiDi"/>
+        <pin num="19" name="EXT_5V" type="power_in"/>
+        <pin num="20" name="GND3" type="power_in"/>
+        <pin num="21" name="IO23" type="BiDi"/>
+        <pin num="22" name="IO22" type="BiDi"/>
+        <pin num="23" name="TXD0" type="output"/>
+        <pin num="24" name="RXD0" type="input"/>
+        <pin num="25" name="IO21" type="BiDi"/>
+        <pin num="26" name="GND2" type="power_in"/>
+        <pin num="27" name="IO19" type="BiDi"/>
+        <pin num="28" name="IO18" type="BiDi"/>
+        <pin num="29" name="IO5" type="BiDi"/>
+        <pin num="30" name="IO17" type="BiDi"/>
+        <pin num="31" name="IO16" type="BiDi"/>
+        <pin num="32" name="IO4" type="BiDi"/>
+        <pin num="33" name="IO0" type="BiDi"/>
+        <pin num="34" name="IO2" type="BiDi"/>
+        <pin num="35" name="IO15" type="BiDi"/>
+        <pin num="36" name="SD1" type="BiDi"/>
+        <pin num="37" name="SD0" type="BiDi"/>
+        <pin num="38" name="CLK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP-backpack-rescue" part="HLE-120-02-F-DV-BE-K-HLE-120-02-F-DV-BE-K">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HLE-120-02-F-DV-BE-K-HLE-120-02-F-DV-BE-K</field>
+        <field name="Footprint">SAMTEC_HLE-120-02-F-DV-BE-K</field>
+        <field name="MANUFACTURER">SAMTEC</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+        <pin num="03" name="03" type="passive"/>
+        <pin num="04" name="04" type="passive"/>
+        <pin num="05" name="05" type="passive"/>
+        <pin num="06" name="06" type="passive"/>
+        <pin num="07" name="07" type="passive"/>
+        <pin num="08" name="08" type="passive"/>
+        <pin num="09" name="09" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="36" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="38" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP-backpack-rescue" part="SK6812-SK6812">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SK6812-SK6812</field>
+        <field name="Footprint">LED_SK6812</field>
+        <field name="MANUFACTURER">Shenzhen LED Color</field>
+        <field name="PARTREV">03</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.7 mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP-backpack-rescue" part="VCNL4010-GS08-VCNL4010-GS08">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VCNL4010-GS08-VCNL4010-GS08</field>
+        <field name="Footprint">XDCR_VCNL4010-GS08</field>
+        <field name="PARTREV">1.6</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="MANUFACTURER">VISHAY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="~" type="power_in"/>
+        <pin num="8" name="~" type="NotConnected"/>
+        <pin num="9" name="~" type="NotConnected"/>
+        <pin num="10" name="~" type="NotConnected"/>
+        <pin num="11" name="~" type="NotConnected"/>
+        <pin num="12" name="~" type="power_in"/>
+        <pin num="13" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="ESP-backpack-rescue">
+      <uri>C:\Users\AlexLorman\OneDrive - ThayerMahan Inc\Attachments\DC Metro Map Project\esp32-backpack\ESP Backpack/ESP backpack-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U1-Pad34)">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad35)">
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="17" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="18" name="Net-(R4-Pad1)">
+      <node ref="U1" pin="11"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="19" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="20" name="Net-(R10-Pad1)">
+      <node ref="U1" pin="13"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="28" name="GND">
+      <node ref="J1" pin="14"/>
+      <node ref="J1" pin="12"/>
+      <node ref="J1" pin="08"/>
+      <node ref="J1" pin="28"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J1" pin="06"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="J1" pin="22"/>
+      <node ref="J1" pin="24"/>
+      <node ref="J1" pin="04"/>
+      <node ref="J1" pin="02"/>
+      <node ref="J1" pin="10"/>
+      <node ref="J1" pin="36"/>
+      <node ref="J1" pin="32"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J1" pin="26"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="D1" pin="3"/>
+      <node ref="J1" pin="40"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J1" pin="18"/>
+      <node ref="J1" pin="16"/>
+      <node ref="5VDC_IN1" pin="2"/>
+      <node ref="U2" pin="12"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J2" pin="34"/>
+      <node ref="J2" pin="26"/>
+      <node ref="J2" pin="28"/>
+      <node ref="J2" pin="32"/>
+      <node ref="J2" pin="36"/>
+      <node ref="J2" pin="38"/>
+      <node ref="J2" pin="40"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J2" pin="02"/>
+      <node ref="J2" pin="06"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="20"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J2" pin="14"/>
+      <node ref="J2" pin="10"/>
+      <node ref="J2" pin="18"/>
+      <node ref="U2" pin="13"/>
+      <node ref="J2" pin="22"/>
+      <node ref="5VDC_IN1" pin="1"/>
+      <node ref="J2" pin="24"/>
+      <node ref="U1" pin="14"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="29" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="30" name="+5V">
+      <node ref="C3" pin="1"/>
+      <node ref="5VDC_IN1" pin="3"/>
+      <node ref="ExtPower1" pin="1"/>
+      <node ref="5VDC_IN1" pin="4"/>
+      <node ref="J2" pin="17"/>
+      <node ref="J2" pin="15"/>
+      <node ref="J2" pin="13"/>
+      <node ref="J2" pin="11"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J2" pin="09"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="J2" pin="39"/>
+      <node ref="J2" pin="37"/>
+      <node ref="J1" pin="17"/>
+      <node ref="J1" pin="15"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J1" pin="01"/>
+      <node ref="J2" pin="23"/>
+      <node ref="J2" pin="21"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J2" pin="19"/>
+      <node ref="J1" pin="29"/>
+      <node ref="J1" pin="19"/>
+      <node ref="J1" pin="27"/>
+      <node ref="J1" pin="25"/>
+      <node ref="J1" pin="23"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J1" pin="21"/>
+      <node ref="J2" pin="25"/>
+      <node ref="J2" pin="05"/>
+      <node ref="J2" pin="03"/>
+      <node ref="J2" pin="01"/>
+      <node ref="J1" pin="31"/>
+      <node ref="J2" pin="35"/>
+      <node ref="J1" pin="13"/>
+      <node ref="J2" pin="33"/>
+      <node ref="J1" pin="11"/>
+      <node ref="J1" pin="09"/>
+      <node ref="J1" pin="07"/>
+      <node ref="J2" pin="31"/>
+      <node ref="J1" pin="05"/>
+      <node ref="J2" pin="27"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="J1" pin="33"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J2" pin="07"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J1" pin="03"/>
+    </net>
+    <net code="31" name="Net-(J2-Pad29)">
+      <node ref="J2" pin="29"/>
+    </net>
+    <net code="32" name="Net-(J2-Pad30)">
+      <node ref="J2" pin="30"/>
+    </net>
+    <net code="33" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="34" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="S1" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="35" name="+3V3">
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="35"/>
+      <node ref="C1" pin="1"/>
+      <node ref="S1" pin="2"/>
+      <node ref="S2" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="36" name="Net-(J1-Pad37)">
+      <node ref="SDA_EXT1" pin="1"/>
+      <node ref="J1" pin="37"/>
+    </net>
+    <net code="37" name="Net-(J1-Pad39)">
+      <node ref="J1" pin="39"/>
+      <node ref="SCL_EXT1" pin="1"/>
+    </net>
+    <net code="38" name="Net-(S1-Pad4)">
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="39" name="Net-(S1-Pad5)">
+      <node ref="S1" pin="5"/>
+    </net>
+    <net code="40" name="Net-(S1-Pad6)">
+      <node ref="S1" pin="6"/>
+    </net>
+    <net code="41" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="42" name="Net-(R9-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="S2" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="43" name="Net-(S1-Pad3)">
+      <node ref="S1" pin="3"/>
+    </net>
+    <net code="44" name="Net-(S2-Pad3)">
+      <node ref="S2" pin="3"/>
+    </net>
+    <net code="45" name="Net-(S2-Pad4)">
+      <node ref="S2" pin="4"/>
+    </net>
+    <net code="46" name="Net-(S2-Pad5)">
+      <node ref="S2" pin="5"/>
+    </net>
+    <net code="47" name="Net-(S2-Pad6)">
+      <node ref="S2" pin="6"/>
+    </net>
+    <net code="49" name="/DiagLED">
+      <node ref="D1" pin="4"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="50" name="Net-(ExtPower1-Pad2)">
+      <node ref="ExtPower1" pin="2"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="51" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="52" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="53" name="/RedLine">
+      <node ref="J2" pin="20"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="54" name="/BlueLine">
+      <node ref="R6" pin="2"/>
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="55" name="/GreenLine">
+      <node ref="J2" pin="12"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="56" name="/YellowLine">
+      <node ref="R4" pin="2"/>
+      <node ref="J2" pin="08"/>
+    </net>
+    <net code="57" name="/OrangeLine">
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="04"/>
+    </net>
+    <net code="58" name="Net-(J1-Pad30)">
+      <node ref="J1" pin="30"/>
+    </net>
+    <net code="59" name="Net-(J1-Pad34)">
+      <node ref="J1" pin="34"/>
+    </net>
+    <net code="60" name="Net-(J1-Pad38)">
+      <node ref="J1" pin="38"/>
+    </net>
+    <net code="61" name="Net-(SDA1-Pad2)">
+      <node ref="U2" pin="4"/>
+      <node ref="SDA1" pin="2"/>
+    </net>
+    <net code="62" name="Net-(SCL1-Pad2)">
+      <node ref="SCL1" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="63" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="64" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="65" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="66" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="67" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="68" name="/SCL">
+      <node ref="U1" pin="22"/>
+      <node ref="R2" pin="1"/>
+      <node ref="SCL1" pin="1"/>
+      <node ref="SCL_EXT1" pin="2"/>
+    </net>
+    <net code="69" name="/SDA">
+      <node ref="R1" pin="1"/>
+      <node ref="SDA1" pin="1"/>
+      <node ref="SDA_EXT1" pin="2"/>
+      <node ref="U1" pin="25"/>
+    </net>
+  </nets>
+</export>

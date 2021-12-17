@@ -1,4 +1,4 @@
-19095631952478051
+19095631952479170
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48768,69 +48768,6 @@ THT ceramic resonator filter DSS6
 0
 3
 3
-Custom Libraries
-452403012014
-WS-SLSVSlide Switch, SMD version,same side connection 452403012014
-
-0
-6
-6
-Custom Libraries
-CAP_EEE0JA102P
-
-
-0
-2
-2
-Custom Libraries
-LED_SK6812
-
-
-0
-4
-4
-Custom Libraries
-MODULE_ESP32-DEVKITC-32D
-
-
-0
-38
-38
-Custom Libraries
-SAMTEC_HLE-120-02-F-DV-BE-K
-
-
-0
-80
-40
-Custom Libraries
-SAMTEC_HLE-120-02-L-DV-K
-
-
-0
-40
-40
-Custom Libraries
-SAMTEC_SSM-119-L-SV
-
-
-0
-19
-19
-Custom Libraries
-SAMTEC_TSW-120-05-G-D
-
-
-0
-40
-40
-Custom Libraries
-TE_282837-4
-
-
-0
-4
-4
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -50777,6 +50714,69 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP-Backpack-Custom-Libraries
+452403012014
+WS-SLSVSlide Switch, SMD version,same side connection 452403012014
+
+0
+6
+6
+ESP-Backpack-Custom-Libraries
+CAP_EEE0JA102P
+
+
+0
+2
+2
+ESP-Backpack-Custom-Libraries
+LED_SK6812
+
+
+0
+4
+4
+ESP-Backpack-Custom-Libraries
+MODULE_ESP32-DEVKITC-32D
+
+
+0
+38
+38
+ESP-Backpack-Custom-Libraries
+SAMTEC_HLE-120-02-F-DV-BE-K
+
+
+0
+80
+40
+ESP-Backpack-Custom-Libraries
+SAMTEC_HLE-120-02-L-DV-K
+
+
+0
+40
+40
+ESP-Backpack-Custom-Libraries
+SAMTEC_SSM-119-L-SV
+
+
+0
+19
+19
+ESP-Backpack-Custom-Libraries
+SAMTEC_TSW-120-05-G-D
+
+
+0
+40
+40
+ESP-Backpack-Custom-Libraries
+TE_282837-4
+
+
+0
+4
+4
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
