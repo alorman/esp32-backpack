@@ -448,12 +448,7 @@
     (pad 4 smd rect (at -2.5 3.25 270) (size 1.2 1.5) (layers F.Cu F.Paste F.Mask))
     (pad 5 smd rect (at 0 3.25 270) (size 1.2 1.5) (layers F.Cu F.Paste F.Mask))
     (pad 6 smd rect (at 2.5 3.25 270) (size 1.2 1.5) (layers F.Cu F.Paste F.Mask))
-    (model "C:/Users/AlexLorman/OneDrive - ThayerMahan Inc/Attachments/DC Metro Map Project/Prod PCB/ESP Backpack/Custom Libraries/452403012014.step"
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "C:/Users/AlexLorman/OneDrive - ThayerMahan Inc/Attachments/DC Metro Map Project/Prod PCB/ESP Backpack/Custom Libraries/Download_STP_452403012014 (rev1).stp"
+    (model "${KIPRJMOD}/../_ESP-backpack-custom-libraries/Download_STP_452403012014 (rev1).stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
