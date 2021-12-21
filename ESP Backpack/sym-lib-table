@@ -1,11 +1,3 @@
 (sym_lib_table
-  (lib (name TSW-120-05-G-D)(type Legacy)(uri ${KIPRJMOD}/../_ESP-backpack-custom-libraries/TSW-120-05-G-D.lib)(options "")(descr ""))
-  (lib (name ESP32-DEVKITC-32D)(type Legacy)(uri ${KIPRJMOD}/../_ESP-backpack-custom-libraries/ESP32-DEVKITC-32D.lib)(options "")(descr ""))
-  (lib (name 282837-4)(type Legacy)(uri ${KIPRJMOD}/../_ESP-backpack-custom-libraries/282837-4.lib)(options "")(descr ""))
-  (lib (name VCNL4010-GS08)(type Legacy)(uri ${KIPRJMOD}/../_ESP-backpack-custom-libraries/VCNL4010-GS08.lib)(options "")(descr ""))
-  (lib (name HLE-120-02-F-DV-BE-K)(type Legacy)(uri ${KIPRJMOD}/../_ESP-backpack-custom-libraries/HLE-120-02-F-DV-BE-K.lib)(options "")(descr ""))
-  (lib (name EEE0JA102P)(type Legacy)(uri ${KIPRJMOD}/../_ESP-backpack-custom-libraries/EEE0JA102P.lib)(options "")(descr ""))
-  (lib (name 452403012014)(type Legacy)(uri ${KIPRJMOD}/../_ESP-backpack-custom-libraries/452403012014.lib)(options "")(descr ""))
-  (lib (name SK6812)(type Legacy)(uri ${KIPRJMOD}/../_ESP-backpack-custom-libraries/SK6812.lib)(options "")(descr ""))
-  (lib (name ESP-backpack-rescue)(type Legacy)(uri "${KIPRJMOD}/../_ESP-backpack-custom-libraries/ESP backpack-rescue.lib")(options "")(descr ""))
+  (lib (name _esp-backpack-custom-schematic-library)(type Legacy)(uri "C:/Users/AlexLorman/OneDrive - ThayerMahan Inc/Attachments/DC Metro Map Project/esp32-backpack/_ESP-backpack-custom-libraries/_esp-backpack-custom-schematic-library.lib")(options "")(descr ""))
 )

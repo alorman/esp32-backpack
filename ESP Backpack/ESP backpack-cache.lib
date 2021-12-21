@@ -36,29 +36,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ESP-backpack-rescue_282837-4-282837-4
+# _esp-backpack-custom-schematic-library_282837-2
 #
-DEF ESP-backpack-rescue_282837-4-282837-4 J 0 40 Y Y 1 L N
-F0 "J" 0 500 50 H V L BNN
-F1 "ESP-backpack-rescue_282837-4-282837-4" 0 -400 50 H V L BNN
-F2 "TE_282837-4" 0 0 50 H I L BNN
+DEF _esp-backpack-custom-schematic-library_282837-2 P 0 40 Y Y 1 L N
+F0 "P" -100 100 50 H V L BNN
+F1 "_esp-backpack-custom-schematic-library_282837-2" -100 -251 50 H V L BNN
+F2 "TE_282837-2" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
-F4 "282837-4" 0 0 50 H I L BNN "Comment"
-F5 "Compliant with Exemptions" 0 0 50 H I L BNN "EU_RoHS_Compliance"
+F4 "Compliant with Exemptions" 0 0 50 H I L BNN "EU_RoHS_Compliance"
+F5 "282837-2" 0 0 50 H I L BNN "Comment"
 DRAW
-S -200 -200 200 300 0 0 16 f
-X 1 1 -400 200 200 R 40 40 0 0 P
-X 2 2 -400 100 200 R 40 40 0 0 P
-X 3 3 -400 0 200 R 40 40 0 0 P
-X 4 4 -400 -100 200 R 40 40 0 0 P
+S -100 -200 100 100 0 0 10 f
+X 1 1 -300 0 200 R 40 40 0 0 P
+X 2 2 -300 -100 200 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# ESP-backpack-rescue_452403012014-452403012014
+# _esp-backpack-custom-schematic-library_452403012014
 #
-DEF ESP-backpack-rescue_452403012014-452403012014 S 0 40 Y N 1 L N
+DEF _esp-backpack-custom-schematic-library_452403012014 S 0 40 Y N 1 L N
 F0 "S" 450 50 50 H V L BNN
-F1 "ESP-backpack-rescue_452403012014-452403012014" 450 -200 50 H V L BNN
+F1 "_esp-backpack-custom-schematic-library_452403012014" 450 -200 50 H V L BNN
 F2 "452403012014" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 DRAW
@@ -84,35 +82,31 @@ X ~ 6 300 -300 100 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# ESP-backpack-rescue_EEE0JA102P-EEE0JA102P
+# _esp-backpack-custom-schematic-library_A765MU158M1ALAE014
 #
-DEF ESP-backpack-rescue_EEE0JA102P-EEE0JA102P C 0 40 N N 1 L N
-F0 "C" -100 150 50 H V L BNN
-F1 "ESP-backpack-rescue_EEE0JA102P-EEE0JA102P" -100 -200 50 H V L BNN
-F2 "CAP_EEE0JA102P" 0 0 50 H I L BNN
-F3 "" 0 0 50 H I L BNN
-F4 "10-Oct-19" 0 0 50 H I L BNN "PARTREV"
-F5 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
-F6 "10.2mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F7 "Panasonic" 0 0 50 H I L BNN "MANUFACTURER"
+DEF _esp-backpack-custom-schematic-library_A765MU158M1ALAE014 C 0 40 Y Y 1 F N
+F0 "C" -50 0 50 H V C CNN
+F1 "_esp-backpack-custom-schematic-library_A765MU158M1ALAE014" 100 100 50 H V C CNN
+F2 "" 100 100 50 H I C CNN
+F3 "" 100 100 50 H I C CNN
 DRAW
-A 233 0 174 1450 -1450 0 0 10 N 90 100 90 -100
-S -46 -60 -11 -55 0 0 0 F
-S -31 -75 -26 -40 0 0 0 F
-P 2 0 0 6 0 0 20 0 N
-P 2 0 0 10 20 0 20 -100 N
-P 2 0 0 10 20 100 20 0 N
-P 2 0 0 6 100 0 60 0 N
-X ~ 1 -100 0 100 R 40 40 0 0 P
-X ~ 2 200 0 100 L 40 40 0 0 P
+A 233 -100 174 1450 -1450 1 1 10 N 90 0 90 -200
+S -46 -160 -11 -155 1 1 0 F
+S -31 -175 -26 -140 1 1 0 F
+P 2 1 1 6 0 -100 20 -100 N
+P 2 1 1 10 20 -100 20 -200 N
+P 2 1 1 10 20 0 20 -100 N
+P 2 1 1 6 100 -100 60 -100 N
+X ~ 1 -100 -100 100 R 40 40 1 1 P
+X ~ 2 200 -100 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ESP-backpack-rescue_ESP32-DEVKITC-32D-ESP32-DEVKITC-32D
+# _esp-backpack-custom-schematic-library_ESP32-DEVKITC-32D
 #
-DEF ESP-backpack-rescue_ESP32-DEVKITC-32D-ESP32-DEVKITC-32D U 0 40 Y Y 1 L N
+DEF _esp-backpack-custom-schematic-library_ESP32-DEVKITC-32D U 0 40 Y Y 1 L N
 F0 "U" -601 1026 50 H V L BNN
-F1 "ESP-backpack-rescue_ESP32-DEVKITC-32D-ESP32-DEVKITC-32D" -601 -1101 50 H V L BNN
+F1 "_esp-backpack-custom-schematic-library_ESP32-DEVKITC-32D" -601 -1101 50 H V L BNN
 F2 "MODULE_ESP32-DEVKITC-32D" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "4" 0 0 50 H I L BNN "PARTREV"
@@ -160,11 +154,11 @@ X IO25 9 -800 100 200 R 40 40 0 0 B
 ENDDRAW
 ENDDEF
 #
-# ESP-backpack-rescue_HLE-120-02-F-DV-BE-K-HLE-120-02-F-DV-BE-K
+# _esp-backpack-custom-schematic-library_HLE-120-02-F-DV-BE-K
 #
-DEF ESP-backpack-rescue_HLE-120-02-F-DV-BE-K-HLE-120-02-F-DV-BE-K J 0 40 Y Y 1 L N
+DEF _esp-backpack-custom-schematic-library_HLE-120-02-F-DV-BE-K J 0 40 Y Y 1 L N
 F0 "J" -320 1044 50 H V L BNN
-F1 "ESP-backpack-rescue_HLE-120-02-F-DV-BE-K-HLE-120-02-F-DV-BE-K" -300 -1200 50 H V L BNN
+F1 "_esp-backpack-custom-schematic-library_HLE-120-02-F-DV-BE-K" -300 -1200 50 H V L BNN
 F2 "SAMTEC_HLE-120-02-F-DV-BE-K" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "SAMTEC" 0 0 50 H I L BNN "MANUFACTURER"
@@ -213,11 +207,11 @@ X 40 40 500 -1000 200 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# ESP-backpack-rescue_SK6812-SK6812
+# _esp-backpack-custom-schematic-library_SK6812
 #
-DEF ESP-backpack-rescue_SK6812-SK6812 D 0 40 Y Y 1 L N
+DEF _esp-backpack-custom-schematic-library_SK6812 D 0 40 Y Y 1 L N
 F0 "D" -400 350 50 H V L BNN
-F1 "ESP-backpack-rescue_SK6812-SK6812" -400 -400 50 H V L BNN
+F1 "_esp-backpack-custom-schematic-library_SK6812" -400 -400 50 H V L BNN
 F2 "LED_SK6812" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Shenzhen LED Color" 0 0 50 H I L BNN "MANUFACTURER"
@@ -233,11 +227,11 @@ X DIN 4 -600 0 200 R 40 40 0 0 I
 ENDDRAW
 ENDDEF
 #
-# ESP-backpack-rescue_VCNL4010-GS08-VCNL4010-GS08
+# _esp-backpack-custom-schematic-library_VCNL4010-GS08
 #
-DEF ESP-backpack-rescue_VCNL4010-GS08-VCNL4010-GS08 U 0 40 N N 1 L N
+DEF _esp-backpack-custom-schematic-library_VCNL4010-GS08 U 0 40 N N 1 L N
 F0 "U" -500 730 50 H V L BNN
-F1 "ESP-backpack-rescue_VCNL4010-GS08-VCNL4010-GS08" -500 -800 50 H V L BNN
+F1 "_esp-backpack-custom-schematic-library_VCNL4010-GS08" -500 -800 50 H V L BNN
 F2 "XDCR_VCNL4010-GS08" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "1.6" 0 0 50 H I L BNN "PARTREV"
