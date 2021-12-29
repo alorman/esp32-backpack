@@ -2,6 +2,16 @@
 This board is designed to couple to the back of the the [DC Metro Map](https://github.com/alorman/dc-map-500x500) and drive the LEDs.  
 This daughterboard-style design is to allow for rapid iteration and testing on the driving board, while keeping the large and expensive map PCB separate.
 
+## Images
+![](images/esp32-backpack-front.png)
+
+![](images/esp32-backpack-back.png)
+
+## Schematic
+[Schematic](exports/esp32-backpack-schematic.pdf)
+
+## BOM
+[Interactive BOM](exports/ibom.html)
 
 ## ESP Chipsets
 ESP32 Chipsets come in about a zillion different configurations. To support the [code](https://github.com/alorman/dc_metro_map) you need a dual-core version. 
