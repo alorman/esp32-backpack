@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name _esp-backpack-custom-schematic-library)(type Legacy)(uri "C:/Users/AlexLorman/OneDrive - ThayerMahan Inc/Attachments/DC Metro Map Project/esp32-backpack/_ESP-backpack-custom-libraries/_esp-backpack-custom-schematic-library.lib")(options "")(descr ""))
+  (lib (name ESP-backpack-rescue)(type Legacy)(uri "${KIPRJMOD}/ESP backpack-rescue.lib")(options "")(descr ""))
+  (lib (name _esp-backpack-custom-schematic-library)(type Legacy)(uri ${KIPRJMOD}/_ESP-backpack-custom-libraries/_esp-backpack-custom-schematic-library.lib)(options "")(descr ""))
 )

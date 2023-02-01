@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source "C:\\Users\\AlexLorman\\OneDrive - ThayerMahan Inc\\Attachments\\DC Metro Map Project\\esp32-backpack\\ESP Backpack\\ESP backpack.sch")
-    (date "12/20/2021 20:18:02")
-    (tool "Eeschema (5.1.9)-1")
+    (source "C:\\Users\\alorman\\Documents\\esp32-backpack\\ESP Backpack\\ESP backpack.sch")
+    (date "2/1/2023 12:42:15 PM")
+    (tool "Eeschema (5.1.12)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -24,7 +24,7 @@
       (tstamp 615E12DE))
     (comp (ref U2)
       (value VCNL4010-GS08)
-      (footprint "Custom Libraries:XDCR_VCNL4010-GS08")
+      (footprint _ESP-Backpack-Custom-Libraries:XDCR_VCNL4010-GS08)
       (fields
         (field (name MANUFACTURER) VISHAY)
         (field (name PARTREV) 1.6)
@@ -118,7 +118,7 @@
       (tstamp 615DEBC6))
     (comp (ref J1)
       (value HLE-120-02-F-DV-BE-K)
-      (footprint "Custom Libraries:SAMTEC_HLE-120-02-F-DV-BE-K")
+      (footprint _ESP-Backpack-Custom-Libraries:SAMTEC_HLE-120-02-F-DV-BE-K)
       (fields
         (field (name MANUFACTURER) SAMTEC))
       (libsource (lib _esp-backpack-custom-schematic-library) (part HLE-120-02-F-DV-BE-K) (description ""))
@@ -126,7 +126,7 @@
       (tstamp 6162485D))
     (comp (ref J2)
       (value HLE-120-02-F-DV-BE-K)
-      (footprint "Custom Libraries:SAMTEC_HLE-120-02-F-DV-BE-K")
+      (footprint _ESP-Backpack-Custom-Libraries:SAMTEC_HLE-120-02-F-DV-BE-K)
       (fields
         (field (name MANUFACTURER) SAMTEC))
       (libsource (lib _esp-backpack-custom-schematic-library) (part HLE-120-02-F-DV-BE-K) (description ""))
@@ -141,7 +141,7 @@
       (tstamp 615DD2E5))
     (comp (ref U1)
       (value ESP32-DEVKITC-32D)
-      (footprint "Custom Libraries:MODULE_ESP32-DEVKITC-32D")
+      (footprint _ESP-Backpack-Custom-Libraries:MODULE_ESP32-DEVKITC-32D)
       (fields
         (field (name MANUFACTURER) "Espressif Systems")
         (field (name PARTREV) 4))
@@ -150,13 +150,13 @@
       (tstamp 61592B24))
     (comp (ref S1)
       (value 452403012014)
-      (footprint "Custom Libraries:452403012014")
+      (footprint _ESP-Backpack-Custom-Libraries:452403012014)
       (libsource (lib _esp-backpack-custom-schematic-library) (part 452403012014) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 616D4E57))
     (comp (ref D1)
       (value SK6812)
-      (footprint "Custom Libraries:LED_SK6812")
+      (footprint _ESP-Backpack-Custom-Libraries:LED_SK6812)
       (fields
         (field (name MANUFACTURER) "Shenzhen LED Color")
         (field (name MAXIMUM_PACKAGE_HEIGHT) "1.7 mm")
@@ -167,7 +167,7 @@
       (tstamp 616D71C8))
     (comp (ref S2)
       (value 452403012014)
-      (footprint "Custom Libraries:452403012014")
+      (footprint _ESP-Backpack-Custom-Libraries:452403012014)
       (libsource (lib _esp-backpack-custom-schematic-library) (part 452403012014) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 616D852D))
@@ -434,7 +434,7 @@
     (library (logical Device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical _esp-backpack-custom-schematic-library)
-      (uri "C:\\Users\\AlexLorman\\OneDrive - ThayerMahan Inc\\Attachments\\DC Metro Map Project\\esp32-backpack\\_ESP-backpack-custom-libraries\\_esp-backpack-custom-schematic-library.lib")))
+      (uri "C:\\Users\\alorman\\Documents\\esp32-backpack\\ESP Backpack/_ESP-backpack-custom-libraries/_esp-backpack-custom-schematic-library.lib")))
   (nets
     (net (code 1) (name GND)
       (node (ref J1) (pin 16))
