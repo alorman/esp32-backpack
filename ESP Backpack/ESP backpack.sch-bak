@@ -16,25 +16,23 @@ $EndDescr
 $Comp
 L power:+5V #PWR049
 U 1 1 615973A9
-P 7500 8500
-F 0 "#PWR049" H 7500 8350 50  0001 C CNN
-F 1 "+5V" H 7400 8600 50  0000 C CNN
-F 2 "" H 7500 8500 50  0001 C CNN
-F 3 "" H 7500 8500 50  0001 C CNN
-	1    7500 8500
+P 7475 8415
+F 0 "#PWR049" H 7475 8265 50  0001 C CNN
+F 1 "+5V" H 7450 8565 50  0000 C CNN
+F 2 "" H 7475 8415 50  0001 C CNN
+F 3 "" H 7475 8415 50  0001 C CNN
+	1    7475 8415
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7500 8500 7500 8550
 $Comp
 L power:GND #PWR050
 U 1 1 61598685
-P 7600 8550
-F 0 "#PWR050" H 7600 8300 50  0001 C CNN
-F 1 "GND" H 7600 8400 50  0000 C CNN
-F 2 "" H 7600 8550 50  0001 C CNN
-F 3 "" H 7600 8550 50  0001 C CNN
-	1    7600 8550
+P 7575 8875
+F 0 "#PWR050" H 7575 8625 50  0001 C CNN
+F 1 "GND" H 7485 8740 50  0000 C CNN
+F 2 "" H 7575 8875 50  0001 C CNN
+F 3 "" H 7575 8875 50  0001 C CNN
+	1    7575 8875
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -187,8 +185,6 @@ Wire Wire Line
 	11100 5650 11250 5650
 Wire Wire Line
 	11100 5450 11250 5450
-Wire Wire Line
-	11100 5250 11150 5250
 Wire Wire Line
 	11100 5050 11250 5050
 Wire Wire Line
@@ -626,7 +622,7 @@ F 3 "" H 8800 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:VCNL4010-GS08 U2
+L ESP-backpack-rescue:VCNL4010-GS08-_esp-backpack-custom-schematic-library U2
 U 1 1 6158E28C
 P 7550 6450
 F 0 "U2" H 7486 7320 50  0000 C CNN
@@ -692,13 +688,13 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR055
 U 1 1 615AC0CF
-P 8500 4800
-F 0 "#PWR055" H 8500 4650 50  0001 C CNN
-F 1 "+3V3" V 8515 4928 50  0000 L CNN
-F 2 "" H 8500 4800 50  0001 C CNN
-F 3 "" H 8500 4800 50  0001 C CNN
-	1    8500 4800
-	0    1    1    0   
+P 8405 4800
+F 0 "#PWR055" H 8405 4650 50  0001 C CNN
+F 1 "+3V3" V 8420 4928 50  0000 L CNN
+F 2 "" H 8405 4800 50  0001 C CNN
+F 3 "" H 8405 4800 50  0001 C CNN
+	1    8405 4800
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3V3 #PWR045
@@ -905,7 +901,7 @@ F 3 "~" H 8950 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:HLE-120-02-F-DV-BE-K J1
+L ESP-backpack-rescue:HLE-120-02-F-DV-BE-K-_esp-backpack-custom-schematic-library J1
 U 1 1 6162485D
 P 3750 4800
 F 0 "J1" H 3750 5967 50  0000 C CNN
@@ -939,7 +935,7 @@ F 3 "" H 7500 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:HLE-120-02-F-DV-BE-K J2
+L ESP-backpack-rescue:HLE-120-02-F-DV-BE-K-_esp-backpack-custom-schematic-library J2
 U 1 1 61621D28
 P 11750 4750
 F 0 "J2" H 11750 5917 50  0000 C CNN
@@ -962,7 +958,7 @@ F 3 "~" H 8950 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:ESP32-DEVKITC-32D U1
+L ESP-backpack-rescue:ESP32-DEVKITC-32D-_esp-backpack-custom-schematic-library U1
 U 1 1 61592B24
 P 7550 3900
 F 0 "U1" H 7550 5067 50  0000 C CNN
@@ -975,7 +971,7 @@ F 5 "Espressif Systems" H 7550 3900 50  0001 L BNN "MANUFACTURER"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8350 4800 8500 4800
+	8350 4800 8405 4800
 Wire Wire Line
 	6600 4800 6750 4800
 $Comp
@@ -1123,10 +1119,8 @@ F 3 "" H 12450 5650 50  0001 C CNN
 	1    12450 5650
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	12350 5250 12250 5250
 $Comp
-L _esp-backpack-custom-schematic-library:452403012014 S1
+L ESP-backpack-rescue:452403012014-_esp-backpack-custom-schematic-library S1
 U 1 1 616D4E57
 P 9450 6600
 F 0 "S1" H 9400 7117 50  0000 C CNN
@@ -1137,7 +1131,7 @@ F 3 "" H 9450 6600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:SK6812 D1
+L ESP-backpack-rescue:SK6812-_esp-backpack-custom-schematic-library D1
 U 1 1 616D71C8
 P 10350 2750
 F 0 "D1" H 10350 3217 50  0000 C CNN
@@ -1152,7 +1146,7 @@ F 7 "1.7 mm" H 10350 2750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
 	1    0    0    -1  
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:452403012014 S2
+L ESP-backpack-rescue:452403012014-_esp-backpack-custom-schematic-library S2
 U 1 1 616D852D
 P 9450 7550
 F 0 "S2" H 9400 8067 50  0000 C CNN
@@ -1560,7 +1554,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 1150 7850 1150
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C3
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C3
 U 1 1 61C67DBE
 P 7950 1250
 F 0 "C3" V 7750 1100 50  0000 L CNN
@@ -1577,7 +1571,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 1450 8150 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C4
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C4
 U 1 1 61C71FFD
 P 8250 1250
 F 0 "C4" V 8050 1100 50  0000 L CNN
@@ -1594,7 +1588,7 @@ Connection ~ 8150 1450
 Wire Wire Line
 	8150 1450 8450 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C5
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C5
 U 1 1 61C72568
 P 8550 1250
 F 0 "C5" V 8350 1100 50  0000 L CNN
@@ -1611,7 +1605,7 @@ Connection ~ 8450 1450
 Wire Wire Line
 	8450 1450 8750 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C6
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C6
 U 1 1 61C72A87
 P 8850 1250
 F 0 "C6" V 8650 1100 50  0000 L CNN
@@ -1628,7 +1622,7 @@ Connection ~ 8750 1450
 Wire Wire Line
 	8750 1450 9050 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C7
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C7
 U 1 1 61C72C92
 P 9150 1250
 F 0 "C7" V 8950 1100 50  0000 L CNN
@@ -1645,7 +1639,7 @@ Connection ~ 9050 1450
 Wire Wire Line
 	9050 1450 9350 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C8
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C8
 U 1 1 61C730DF
 P 9450 1250
 F 0 "C8" V 9250 1100 50  0000 L CNN
@@ -1662,7 +1656,7 @@ Connection ~ 9350 1450
 Wire Wire Line
 	9350 1450 9650 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C9
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C9
 U 1 1 61C738BA
 P 9750 1250
 F 0 "C9" V 9550 1100 50  0000 L CNN
@@ -1679,7 +1673,7 @@ Connection ~ 9650 1450
 Wire Wire Line
 	9650 1450 9950 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C10
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C10
 U 1 1 61C73CBB
 P 10050 1250
 F 0 "C10" V 9850 1100 50  0000 L CNN
@@ -1690,16 +1684,301 @@ F 3 "" H 10150 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:282837-2 5VDC_IN1
+L ESP-backpack-rescue:282837-2-_esp-backpack-custom-schematic-library 5VDC_IN1
 U 1 1 61C99002
-P 7600 8850
-F 0 "5VDC_IN1" V 7447 8980 50  0000 L CNN
-F 1 "282837-2" V 7538 8980 50  0000 L CNN
-F 2 "_ESP-Backpack-Custom-Libraries:TE_282837-2" H 7600 8850 50  0001 L BNN
-F 3 "" H 7600 8850 50  0001 L BNN
-F 4 "Compliant with Exemptions" H 7600 8850 50  0001 L BNN "EU_RoHS_Compliance"
-F 5 "282837-2" H 7600 8850 50  0001 L BNN "Comment"
-	1    7600 8850
+P 7575 9175
+F 0 "5VDC_IN1" V 7725 8955 50  0000 L CNN
+F 1 "282837-2" V 7810 8920 50  0000 L CNN
+F 2 "_ESP-Backpack-Custom-Libraries:TE_282837-2" H 7575 9175 50  0001 L BNN
+F 3 "" H 7575 9175 50  0001 L BNN
+F 4 "Compliant with Exemptions" H 7575 9175 50  0001 L BNN "EU_RoHS_Compliance"
+F 5 "282837-2" H 7575 9175 50  0001 L BNN "Comment"
+	1    7575 9175
 	0    1    1    0   
 $EndComp
+$Comp
+L _esp-backpack-custom-schematic-library:DS3231SN# U3
+U 1 1 643D15E3
+P 4215 7425
+F 0 "U3" H 4505 7590 50  0000 C CNN
+F 1 "DS3231SN#" H 4505 7499 50  0000 C CNN
+F 2 "" H 4215 7425 50  0001 C CNN
+F 3 "" H 4215 7425 50  0001 C CNN
+	1    4215 7425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 643E148E
+P 7475 8635
+F 0 "F1" H 7680 8575 50  0000 R CNN
+F 1 "Fuse" H 7725 8655 50  0000 R CNN
+F 2 "" V 7405 8635 50  0001 C CNN
+F 3 "~" H 7475 8635 50  0001 C CNN
+	1    7475 8635
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 643E2D79
+P 6280 3600
+F 0 "J3" H 6198 3375 50  0000 C CNN
+F 1 "Conn_01x01" H 6198 3466 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6280 3600 50  0001 C CNN
+F 3 "~" H 6280 3600 50  0001 C CNN
+	1    6280 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12250 5250 12450 5250
+Wire Wire Line
+	11100 5250 11250 5250
+Wire Wire Line
+	5850 6750 5850 7460
+Wire Wire Line
+	5850 7460 5795 7460
+$Comp
+L Device:R SCL2
+U 1 1 64405758
+P 5645 7460
+F 0 "SCL2" V 5735 7465 50  0000 C CNN
+F 1 "0ohm" V 5825 7465 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5575 7460 50  0001 C CNN
+F 3 "~" H 5645 7460 50  0001 C CNN
+	1    5645 7460
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R SDA2
+U 1 1 64406CD4
+P 5650 7635
+F 0 "SDA2" V 5485 7620 50  0000 C CNN
+F 1 "0ohm" V 5565 7620 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 7635 50  0001 C CNN
+F 3 "~" H 5650 7635 50  0001 C CNN
+	1    5650 7635
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5495 7460 5380 7460
+Wire Wire Line
+	5380 7460 5380 7495
+Wire Wire Line
+	5380 7635 5500 7635
+Wire Wire Line
+	5380 7595 5380 7635
+Wire Wire Line
+	5800 7635 5950 7635
+Wire Wire Line
+	5950 6550 5950 7635
+Wire Wire Line
+	4955 7495 5380 7495
+Wire Wire Line
+	4955 7595 5380 7595
+Wire Wire Line
+	4955 7695 5290 7695
+$Comp
+L power:GND #PWR064
+U 1 1 64453258
+P 4955 8335
+F 0 "#PWR064" H 4955 8085 50  0001 C CNN
+F 1 "GND" H 4955 8185 50  0000 C CNN
+F 2 "" H 4955 8335 50  0001 C CNN
+F 3 "" H 4955 8335 50  0001 C CNN
+	1    4955 8335
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4955 7795 4955 7895
+Connection ~ 4955 7895
+Wire Wire Line
+	4955 7895 4955 7995
+Connection ~ 4955 7995
+Wire Wire Line
+	4955 7995 4955 8095
+Connection ~ 4955 8095
+Wire Wire Line
+	4955 8095 4955 8195
+Connection ~ 4955 8195
+Wire Wire Line
+	4955 8195 4955 8335
+$Comp
+L power:GND #PWR063
+U 1 1 6445B58A
+P 4055 8335
+F 0 "#PWR063" H 4055 8085 50  0001 C CNN
+F 1 "GND" H 4055 8185 50  0000 C CNN
+F 2 "" H 4055 8335 50  0001 C CNN
+F 3 "" H 4055 8335 50  0001 C CNN
+	1    4055 8335
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4055 7895 4055 7995
+Connection ~ 4055 7995
+Wire Wire Line
+	4055 7995 4055 8095
+Connection ~ 4055 8095
+Wire Wire Line
+	4055 8095 4055 8195
+Connection ~ 4055 8195
+Wire Wire Line
+	4055 8195 4055 8335
+$Comp
+L power:+3V3 #PWR028
+U 1 1 64439053
+P 2965 7595
+F 0 "#PWR028" H 2965 7445 50  0001 C CNN
+F 1 "+3V3" V 3050 7540 50  0000 L CNN
+F 2 "" H 2965 7595 50  0001 C CNN
+F 3 "" H 2965 7595 50  0001 C CNN
+	1    2965 7595
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7475 8785 7475 8875
+Wire Wire Line
+	7475 8415 7475 8485
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 6449D2EC
+P 5290 8010
+F 0 "BT1" H 5408 8106 50  0000 L CNN
+F 1 "Battery_Cell" H 5408 8015 50  0000 L CNN
+F 2 "" V 5290 8070 50  0001 C CNN
+F 3 "~" V 5290 8070 50  0001 C CNN
+	1    5290 8010
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5290 7695 5290 7810
+$Comp
+L power:GND #PWR051
+U 1 1 644A761B
+P 5290 8155
+F 0 "#PWR051" H 5290 7905 50  0001 C CNN
+F 1 "GND" H 5290 8005 50  0000 C CNN
+F 2 "" H 5290 8155 50  0001 C CNN
+F 3 "" H 5290 8155 50  0001 C CNN
+	1    5290 8155
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5290 8155 5290 8110
+$Comp
+L Connector_Generic:Conn_01x02 JReset1
+U 1 1 644B0F2D
+P 3240 7895
+F 0 "JReset1" H 3445 7895 50  0000 C CNN
+F 1 "Conn_01x02" H 3545 7790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3240 7895 50  0001 C CNN
+F 3 "~" H 3240 7895 50  0001 C CNN
+	1    3240 7895
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4055 7795 3440 7795
+$Comp
+L power:GND #PWR048
+U 1 1 644BC015
+P 3440 7935
+F 0 "#PWR048" H 3440 7685 50  0001 C CNN
+F 1 "GND" H 3440 7785 50  0000 C CNN
+F 2 "" H 3440 7935 50  0001 C CNN
+F 3 "" H 3440 7935 50  0001 C CNN
+	1    3440 7935
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3440 7895 3440 7935
+$Comp
+L Device:C C12
+U 1 1 644C723E
+P 3190 7445
+F 0 "C12" H 3285 7625 50  0000 L CNN
+F 1 "10uF" H 3280 7545 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3228 7295 50  0001 C CNN
+F 3 "~" H 3190 7445 50  0001 C CNN
+	1    3190 7445
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2965 7595 3190 7595
+Connection ~ 3190 7595
+Wire Wire Line
+	3190 7595 3560 7595
+$Comp
+L Device:C C13
+U 1 1 644D0EFE
+P 3560 7445
+F 0 "C13" H 3680 7625 50  0000 L CNN
+F 1 "0.1uF" H 3685 7535 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3598 7295 50  0001 C CNN
+F 3 "~" H 3560 7445 50  0001 C CNN
+	1    3560 7445
+	1    0    0    -1  
+$EndComp
+Connection ~ 3560 7595
+Wire Wire Line
+	3560 7595 4055 7595
+$Comp
+L power:GND #PWR010
+U 1 1 644D1534
+P 3190 7230
+F 0 "#PWR010" H 3190 6980 50  0001 C CNN
+F 1 "GND" H 3190 7080 50  0000 C CNN
+F 2 "" H 3190 7230 50  0001 C CNN
+F 3 "" H 3190 7230 50  0001 C CNN
+	1    3190 7230
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3190 7230 3190 7295
+$Comp
+L power:GND #PWR020
+U 1 1 644DA782
+P 3560 7230
+F 0 "#PWR020" H 3560 6980 50  0001 C CNN
+F 1 "GND" H 3560 7080 50  0000 C CNN
+F 2 "" H 3560 7230 50  0001 C CNN
+F 3 "" H 3560 7230 50  0001 C CNN
+	1    3560 7230
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3560 7230 3560 7295
+Wire Wire Line
+	6750 3600 6480 3600
+$Comp
+L Device:C C11
+U 1 1 644FF8D4
+P 8685 4850
+F 0 "C11" H 8750 4975 50  0000 L CNN
+F 1 "10uF" H 8745 4740 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8723 4700 50  0001 C CNN
+F 3 "~" H 8685 4850 50  0001 C CNN
+	1    8685 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4700 8685 4700
+$Comp
+L power:GND #PWR09
+U 1 1 64511FFD
+P 8685 5035
+F 0 "#PWR09" H 8685 4785 50  0001 C CNN
+F 1 "GND" H 8685 4885 50  0000 C CNN
+F 2 "" H 8685 5035 50  0001 C CNN
+F 3 "" H 8685 5035 50  0001 C CNN
+	1    8685 5035
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8685 5000 8685 5035
+Text Notes 4305 5330 0    50   ~ 0
+Reserved Function
+Text Notes 4305 5530 0    50   ~ 0
+Reserved Function
+Text Notes 4310 5730 0    50   ~ 0
+Reserved Function
 $EndSCHEMATC
