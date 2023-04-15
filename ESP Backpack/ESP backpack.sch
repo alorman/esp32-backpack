@@ -626,7 +626,7 @@ F 3 "" H 8800 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:VCNL4010-GS08 U2
+L ESP-backpack-rescue:VCNL4010-GS08-_esp-backpack-custom-schematic-library U2
 U 1 1 6158E28C
 P 7550 6450
 F 0 "U2" H 7486 7320 50  0000 C CNN
@@ -905,7 +905,7 @@ F 3 "~" H 8950 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:HLE-120-02-F-DV-BE-K J1
+L ESP-backpack-rescue:HLE-120-02-F-DV-BE-K-_esp-backpack-custom-schematic-library J1
 U 1 1 6162485D
 P 3750 4800
 F 0 "J1" H 3750 5967 50  0000 C CNN
@@ -939,7 +939,7 @@ F 3 "" H 7500 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:HLE-120-02-F-DV-BE-K J2
+L ESP-backpack-rescue:HLE-120-02-F-DV-BE-K-_esp-backpack-custom-schematic-library J2
 U 1 1 61621D28
 P 11750 4750
 F 0 "J2" H 11750 5917 50  0000 C CNN
@@ -962,7 +962,7 @@ F 3 "~" H 8950 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:ESP32-DEVKITC-32D U1
+L ESP-backpack-rescue:ESP32-DEVKITC-32D-_esp-backpack-custom-schematic-library U1
 U 1 1 61592B24
 P 7550 3900
 F 0 "U1" H 7550 5067 50  0000 C CNN
@@ -1126,7 +1126,7 @@ $EndComp
 Wire Wire Line
 	12350 5250 12250 5250
 $Comp
-L _esp-backpack-custom-schematic-library:452403012014 S1
+L ESP-backpack-rescue:452403012014-_esp-backpack-custom-schematic-library S1
 U 1 1 616D4E57
 P 9450 6600
 F 0 "S1" H 9400 7117 50  0000 C CNN
@@ -1137,7 +1137,7 @@ F 3 "" H 9450 6600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:SK6812 D1
+L ESP-backpack-rescue:SK6812-_esp-backpack-custom-schematic-library D1
 U 1 1 616D71C8
 P 10350 2750
 F 0 "D1" H 10350 3217 50  0000 C CNN
@@ -1152,7 +1152,7 @@ F 7 "1.7 mm" H 10350 2750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
 	1    0    0    -1  
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:452403012014 S2
+L ESP-backpack-rescue:452403012014-_esp-backpack-custom-schematic-library S2
 U 1 1 616D852D
 P 9450 7550
 F 0 "S2" H 9400 8067 50  0000 C CNN
@@ -1560,7 +1560,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 1150 7850 1150
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C3
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C3
 U 1 1 61C67DBE
 P 7950 1250
 F 0 "C3" V 7750 1100 50  0000 L CNN
@@ -1577,7 +1577,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 1450 8150 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C4
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C4
 U 1 1 61C71FFD
 P 8250 1250
 F 0 "C4" V 8050 1100 50  0000 L CNN
@@ -1594,7 +1594,7 @@ Connection ~ 8150 1450
 Wire Wire Line
 	8150 1450 8450 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C5
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C5
 U 1 1 61C72568
 P 8550 1250
 F 0 "C5" V 8350 1100 50  0000 L CNN
@@ -1611,7 +1611,7 @@ Connection ~ 8450 1450
 Wire Wire Line
 	8450 1450 8750 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C6
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C6
 U 1 1 61C72A87
 P 8850 1250
 F 0 "C6" V 8650 1100 50  0000 L CNN
@@ -1628,7 +1628,7 @@ Connection ~ 8750 1450
 Wire Wire Line
 	8750 1450 9050 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C7
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C7
 U 1 1 61C72C92
 P 9150 1250
 F 0 "C7" V 8950 1100 50  0000 L CNN
@@ -1645,7 +1645,7 @@ Connection ~ 9050 1450
 Wire Wire Line
 	9050 1450 9350 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C8
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C8
 U 1 1 61C730DF
 P 9450 1250
 F 0 "C8" V 9250 1100 50  0000 L CNN
@@ -1662,7 +1662,7 @@ Connection ~ 9350 1450
 Wire Wire Line
 	9350 1450 9650 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C9
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C9
 U 1 1 61C738BA
 P 9750 1250
 F 0 "C9" V 9550 1100 50  0000 L CNN
@@ -1679,7 +1679,7 @@ Connection ~ 9650 1450
 Wire Wire Line
 	9650 1450 9950 1450
 $Comp
-L _esp-backpack-custom-schematic-library:A765MU158M1ALAE014 C10
+L ESP-backpack-rescue:A765MU158M1ALAE014-_esp-backpack-custom-schematic-library C10
 U 1 1 61C73CBB
 P 10050 1250
 F 0 "C10" V 9850 1100 50  0000 L CNN
@@ -1690,7 +1690,7 @@ F 3 "" H 10150 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L _esp-backpack-custom-schematic-library:282837-2 5VDC_IN1
+L ESP-backpack-rescue:282837-2-_esp-backpack-custom-schematic-library 5VDC_IN1
 U 1 1 61C99002
 P 7600 8850
 F 0 "5VDC_IN1" V 7447 8980 50  0000 L CNN
