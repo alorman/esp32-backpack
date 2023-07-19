@@ -1,4 +1,4 @@
-19418006911848529
+19421422223820799
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83039,6 +83039,20 @@ CAP_EEE0JA102P
 
 0
 2
+2
+_ESP-Backpack-Custom-Libraries
+Keystone-3658
+
+
+0
+4
+2
+_ESP-Backpack-Custom-Libraries
+Keystone_2894
+
+
+0
+3
 2
 _ESP-Backpack-Custom-Libraries
 LED_SK6812
